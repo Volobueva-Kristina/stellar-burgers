@@ -20,7 +20,7 @@ export interface OrdersState {
   currentOrder: TOrder | null;
 }
 
-const initialState: OrdersState = {
+export const initialState: OrdersState = {
   orders: [],
   isLoading: false,
   error: null,

@@ -28,7 +28,7 @@ export interface OrderState {
   orderModalData: TOrder | null;
 }
 
-const initialState: OrderState = {
+export const initialState: OrderState = {
   order: null,
   name: null,
   isLoading: false,
